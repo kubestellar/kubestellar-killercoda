@@ -21,7 +21,7 @@ scenario-name/
 - Killercoda reads `index.json` to build the UI
 - `text.md` files contain the actual instructions users see
 - Code blocks with `{{copy}}` or `{{exec}}` become clickable
-- Backend `imageid` determines the VM (we use `ubuntu`)
+- Backend `imageid` determines the VM (`ubuntu` is used)
 
 See [Killercoda docs](https://killercoda.com/creators) and [examples](https://github.com/killercoda/scenario-examples).
 

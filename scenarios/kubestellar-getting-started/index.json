@@ -25,7 +25,7 @@
     }
   },
   "backend": {
-    "_comment": "ubuntu image chosen for flexibility - TODO: confirm Docker/kind support",
+    "_comment": "Ubuntu base image",
     "imageid": "ubuntu"
   }
 }

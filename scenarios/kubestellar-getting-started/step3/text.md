@@ -1,19 +1,17 @@
 # Verify
 
-Verify installation per documentation:
+Use the following commands to inspect the environment after installation:
 
 ```bash
-kubectl get namespaces
+kind get clusters
 ```{{exec}}
 
 ```bash
 kflex ctx
 ```{{exec}}
 
-Additional checks:
-
 ```bash
-kind get clusters
+kubectl get namespaces
 ```{{exec}}
 
-<!-- TODO: Document expected output after running install script in Killercoda -->
+<!-- TODO: Record observed output for each command after running in Killercoda -->

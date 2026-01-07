@@ -1,8 +1,16 @@
 # Prerequisites
 
-Core prerequisites (Docker, kubectl, KubeFlex, clusteradm, Helm) and kind are required.
+The following tools are required by KubeStellar:
+- Docker
+- kubectl
+- kind
+- Helm
+- KubeFlex
+- clusteradm
 
-Run automated prerequisite check:
+This scenario requires the standard KubeStellar prerequisites as documented.
+
+Run the documented prerequisite check script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/check_pre_req.sh | bash
@@ -30,4 +38,4 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubeflex/main/scrip
 bash <(curl -L https://raw.githubusercontent.com/open-cluster-management-io/clusteradm/main/install.sh) 0.10.1
 ```{{copy}}
 
-<!-- TODO: Confirm Docker and kind function in Killercoda ubuntu environment -->
+<!-- TODO: Verify Docker and kind are usable in the Killercoda Ubuntu environment -->
