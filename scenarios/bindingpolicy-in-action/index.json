@@ -1,0 +1,29 @@
+{
+  "title": "KubeStellar: BindingPolicy in Action",
+  "description": "Learn how changing intent with BindingPolicy changes workload placement without redeploying workloads.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install KubeStellar and Create Clusters",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Initial Placement Using BindingPolicy",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Change Intent: Update BindingPolicy",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
